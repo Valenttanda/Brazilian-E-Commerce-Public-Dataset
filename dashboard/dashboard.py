@@ -5,7 +5,7 @@ import seaborn as sns
 from datetime import datetime
 
 # Memuat data reviews_sales_df
-df = pd.read_csv("reviews_sales_df.csv")
+df = pd.read_csv("dashboard/reviews_sales_df.csv")
 df["order_purchase_timestamp"] = pd.to_datetime(df["order_purchase_timestamp"])
 
 st.title("Dashboard Analisis Data E-Commerce Brazil")
