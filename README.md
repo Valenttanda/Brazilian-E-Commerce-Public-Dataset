@@ -14,3 +14,6 @@ pip install -r requirements.txt
 cd dashboard
 streamlit run dashboard.py
 ```
+
+## URL
+[Brazilian E-Commerce Product](https://brazilian-e-commerce-public.streamlit.app/)
